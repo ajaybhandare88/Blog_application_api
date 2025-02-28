@@ -2,7 +2,7 @@
 Go to api documentation page 
 # http://blogapp-env.eba-cd4qdtuw.us-east-1.elasticbeanstalk.com/swagger-ui/index.html
 You can access without authentication POST_CONTROLLER for the create new user after you can access all url using created user USERNAME and PASSWORD  
-_________________________________________User Services______________________________________________________________________________
+# _________________________________________User Services______________________________________________________________________________
 # Create new user {POST}
 Endpoint: /new/user/?roleId={roleId}    ROLE_ADMIN id=1 and ROLE_ADMIN id=2
 Description: Registers a new user in the system.
@@ -26,7 +26,7 @@ Description: Delete user.
 # Assign new role {POST}
 Endpoint: Requires /api/user/addNewRole?userId={userId}&roleId{roleId}
 Description: Assign new role.
-_________________________________________Post Services______________________________________________________________________________
+# _________________________________________Post Services______________________________________________________________________________
 # Get post using post id {GET}
 Endpoint: Requires /api/post/{id}
 Description: Fetch post using id.
@@ -57,7 +57,7 @@ Description: Fetch all post with defult pagination pageNumber=0 and pageSize=4.
 # Fetch all post custom pagination {GET}
 Endpoint: Requires /api/post/page?pageNumber={PageNumber}&pageSize={PageSize}
 Description: Fetch all post with defult pagination pageNumber=0 and pageSize=4.
-_________________________________________Category Services______________________________________________________________________________
+# _________________________________________Category Services______________________________________________________________________________
 # Get category using id {GET}
 Endpoint: Requires /api/category/{id}
 Description: Fetch category using id.
@@ -73,7 +73,7 @@ Description: Create category.
 # Fetch all category {GET}
 Endpoint: Requires /api/category/
 Description: Fetch list of category.
-_________________________________________Comment Services______________________________________________________________________________
+# _________________________________________Comment Services______________________________________________________________________________
 # Comment on post {POST}
 Endpoint: Requires /api/comment/user/{userId}/post/{postId}/comment
 Description: Create comment.
