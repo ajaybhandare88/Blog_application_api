@@ -79,4 +79,4 @@ Endpoint: Requires /api/comment/user/{userId}/post/{postId}/comment
 Description: Create comment.
 # Delete comment using id {DELETE}
 Endpoint: Requires /api/comment/{id}
-Description: Delete comment.
+*Description: Delete comment*.
