@@ -1,6 +1,6 @@
 # Blog_application_api
 Go to api documentation page 
-# http://blogapp-env.eba-cd4qdtuw.us-east-1.elasticbeanstalk.com/swagger-ui/index.html
+http://blogapp-env.eba-cd4qdtuw.us-east-1.elasticbeanstalk.com/swagger-ui/index.html
 You can access without authentication POST_CONTROLLER for the create new user after you can access all url using created user USERNAME and PASSWORD  
 # _________________________________________User Services______________________________________________________________________________
 # Create new user {POST}
